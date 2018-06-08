@@ -62,8 +62,8 @@
 	"detox": {
 		"configurations": {
 			"ios.sim.debug": {
-				"binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/awakn.app",
-				"build": "xcodebuild -project ios/awakn.xcodeproj -scheme awakn -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+				"binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/reactnativerepo.app",
+				"build": "xcodebuild -project ios/reactnativerepo.xcodeproj -scheme reactnativerepo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
 				"type": "ios.simulator",
 				"name": "iPhone 7"
 			}

@@ -4,4 +4,4 @@ import { useStrict } from 'mobx';
 
 useStrict(true);
 
-AppRegistry.registerComponent('awakn', () => App);
+AppRegistry.registerComponent('reactnativerepo', () => App);
