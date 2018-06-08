@@ -13,7 +13,7 @@ class Home extends Component<Props, {}> {
     render() {
         return (
             <View
-                style={[styles.container, { paddingBottom: 60 }]}
+                style={styles.container}
                 testID="test"
             >
                 <Text
@@ -31,7 +31,9 @@ class Home extends Component<Props, {}> {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'white',
-        flex: 1
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 });
 
