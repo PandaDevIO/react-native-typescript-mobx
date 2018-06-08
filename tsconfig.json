@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "paths": {
+      "@Common/*": ["./src/common/*"],
+      "@Interfaces/*": ["./src/common/interfaces/*"],
+      "@Services/*": ["./src/services/*"],
+      "@Components/*": ["./src/components/*"],
+      "@Assets/*": ["./assets/*"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "ios",
+    "android"
+  ],
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "compileOnSave": true
+}
