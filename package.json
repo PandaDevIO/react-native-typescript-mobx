@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-		"android": "react-native run-android",
+		"android": "ENVFILE=.env.dev react-native run-android",
 		"android-prod": "ENVFILE=.env.production react-native run-android",
 		"android-test": "ENVFILE=.env.test react-native run-android",
 		"ios": "react-native run-ios",
