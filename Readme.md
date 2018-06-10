@@ -2,7 +2,7 @@
 
 ## Introduction
 
->  A simple boilerplate to start a react native project with MobX, Typescript, react-navigation and other libraries
+A simple boilerplate to start a react native project with [MobX](https://github.com/mobxjs/mobx) + [Typescript](https://www.typescriptlang.org/) + [React Navigation](https://v1.reactnavigation.org/docs/getting-started.html) + [NativeBase](https://nativebase.io/) + [React Native Config](https://github.com/luggit/react-native-config) + [Detox](https://github.com/wix/detox)
 
 
 ## Installation
