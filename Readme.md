@@ -2,13 +2,13 @@
 
 ## Introduction
 
-A simple boilerplate to start a react native project with [MobX](https://github.com/mobxjs/mobx) + [Typescript](https://www.typescriptlang.org/) + [React Navigation](https://v1.reactnavigation.org/docs/getting-started.html) + [NativeBase](https://nativebase.io/) + [React Native Config](https://github.com/luggit/react-native-config) + [Detox](https://github.com/wix/detox)
+A simple react native project with [MobX](https://github.com/mobxjs/mobx) + [Typescript](https://www.typescriptlang.org/) + [React Navigation](https://v1.reactnavigation.org/docs/getting-started.html) + [NativeBase](https://nativebase.io/) + [React Native Config](https://github.com/luggit/react-native-config) + [Detox](https://github.com/wix/detox)
 
 
 ## Installation
 
 Clone the repo
-> git clone https://github.com/PandaDevIO/react-native-typescript-mobx.git app_name
+> git clone https://github.com/damienassany/react-native-typescript-mobx.git app_name
 
 Install dependencies
 > cd app_name && npm install
